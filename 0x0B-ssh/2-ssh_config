@@ -4,4 +4,3 @@
 Host 18.235.234.134
 IdentityFile ~/.ssh/school
 PasswordAuthentication no
-PreferredAuthentications publickey
