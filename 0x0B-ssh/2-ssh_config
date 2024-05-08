@@ -2,5 +2,9 @@
 # Client configuration file
 # file with user config
 Host 100.25.204.254
-IdentityFile ~/.ssh/school
 PasswordAuthentication no
+IdentityFile ~/.ssh/school
+SendENV LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+GSSAPIDelegateCredentials no
