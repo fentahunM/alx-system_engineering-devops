@@ -7,7 +7,7 @@ import requests as req
 def number_of_subscribers(subreddit):
     """ this will return the number of subs of a given subreddit """
 
-    headers = {'User-Agent': 'Mozilla/5.0 (compatible; Python script)'}
+    headers = {'User-Agent': 'hello-student'}
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     response = req.get(url, headers=headers, allow_redirects=False)
 
